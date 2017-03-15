@@ -16,7 +16,6 @@ def createFile():
     volume = 100
     theSong.addTrackName(track, 0, "track1")
     theSong.addTempo(track, 0, 120)
-    #theSong.addProgramChange(0,0,0,100)
     theSong.addNote(track, channel, 60, 0, 1, volume)
 
     with open('counting.json') as data_file:
